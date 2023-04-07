@@ -14,7 +14,8 @@ UTIL       := copy_matrix.o \
               random_matrix.o \
               dclock.o \
               REF_MMult.o \
-              print_matrix.o
+              print_matrix.o \
+			  drand48.o
 
 TEST_OBJS  := test_MMult.o $(NEW).o 
 
